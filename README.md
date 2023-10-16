@@ -1,31 +1,48 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# A Battleships Game
+Portfolio Project 3 Python Essentials - Code Institute
 
-Welcome USER_NAME,
+# About
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+# How To Play
 
-## Reminders
+To play the game based on the provided code, follow these steps:
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+1. Run the Python script containing the game code in your preferred Python environment.
 
-## Creating the Heroku app
+2. You'll be greeted with a welcome message, and the game will ask you to enter a username. Type in your username and press Enter.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+3. The game initializes the boards and places battleships on both your board and the computer's board. However, you can't see the computer's board; it's hidden.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+4. The main game loop runs for ten turns. In each turn:
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+   a. You'll see a message indicating the turn number (e.g., "This is turn 1/10").
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+   b. The game will ask you to make a guess by specifying a column and a row. You need to enter the coordinates as numbers between 1 and 5, not 0-based indices. For example, you can input "3" for the column and "2" for the row. The game validates your input to ensure it's within bounds and hasn't been guessed before.
 
-Connect your GitHub repository and deploy as normal.
+   c. After you make your guess, the game displays your guesses on the `player_guesses` board. If your guess hits a computer battleship, it's marked with "#" (a hit), and if you miss, it's marked with "*" (a miss).
 
-## Constraints
+   d. The computer then takes its turn, and the result is displayed. The computer will guess a location on your `player` board, and you'll see if it hits or misses your ships.
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+5. Repeat steps 4 for ten turns. The game will keep track of hits on both boards.
 
------
-Happy coding!
+6. After ten turns, the game will report the winner. The player with the most hits wins. If both sides have the same number of hits, it's considered a draw.
+
+7. You'll see a message indicating the winner or a draw, and the game ends.
+
+Enjoy playing the game, and try to outsmart the computer by finding its hidden battleships while protecting your own!
+
+
+
+## Bugs/Updates after Testing
+
+-Based on user feedback and testing, the code was modified to accept numbers in the range of 1 to 5 instead of starting at 0, which was initially confusing. Additionally, input breaks were introduced so that players could see the results of each turn without needing to scroll through the output. Several code commits were made to clarify the distinction between rows and columns. Furthermore, potential issues with the ship generating function being stuck in a loop if the code were edited for a smaller board with fewer than 4 locations were addressed.
+
+## Validator Testing
+
+
+
+# Deployment
+
+
+# Credits
+
