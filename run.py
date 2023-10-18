@@ -216,7 +216,7 @@ def check_winner_final():
     """
     player_result = check_winner(player_guesses)
     computer_result = check_winner(player)
-    if player_reult > computer_result:
+    if player_result > computer_result:
         print("Congratulations! You WIN!")
     elif player_result < computer_result:
         print("Commiserations - the computer had the most hits!")
@@ -225,5 +225,5 @@ def check_winner_final():
 
 
 # Call the main function
-game_play()
+gam_play()
 
