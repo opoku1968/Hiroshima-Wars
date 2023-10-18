@@ -205,7 +205,7 @@ def check_winner(board):
     Sums the number of times " # " (hit battleships) appear in the board.
     Argument: a list, expected to be the player board
     """
-    totl = 0
+    total = 0
     for list in board:
         total += list.count(" # ")
     return total
@@ -216,7 +216,7 @@ def check_winner_final():
     """
     player_result = check_winner(player_guesses)
     computer_result = check_winner(player)
-    if player_result > computer_result:
+    if player_reult > computer_result:
         print("Congratulations! You WIN!")
     elif player_result < computer_result:
         print("Commiserations - the computer had the most hits!")
