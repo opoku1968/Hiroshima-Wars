@@ -35,6 +35,7 @@ def random_num(board):
     return randint(0, len(board)-1)
 
 
+
 def generate_ship_loc(board):
     """
     We want 4 ships to be on the board and the while loop ensures there will
@@ -54,6 +55,7 @@ def generate_ship_loc(board):
         # total with ship_num
         for row in board:
             ship_num += row.count(" o ")
+
 
 
 def welcome():
