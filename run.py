@@ -1,7 +1,7 @@
 from random import randint
 
 player = []
-payer_guesses = []
+player_guesses = []
 compuer = []
 
 
@@ -22,7 +22,7 @@ def print_board(board):
    in a format without the original list structure 
    and with added spaces.
     """
-    for ind in board:
+    for nd in board:
         print(" ".join(ind))
 
 
