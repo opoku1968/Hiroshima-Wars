@@ -137,7 +137,7 @@ def computer_guess():
     guess_row = random_num(computer)
     # Check if we've already chosen that spot
     while repeat:
-        if (plyer[guess_row][guess_col] == " * " or
+        if (player[guess_row][guess_col] == " * " or
                 player[guess_row][guess_col] == " # "):
             guess_col = random_num(computer)
             guess_row = random_num(computer)
@@ -147,7 +147,7 @@ def computer_guess():
     print(f"They've chosen {guess_col + 1}, {guess_row + 1}")
     if player[guess_row][guess_col] == " o ":
         player[guess_row][guess_col] = " # "
-        print("It's a hit! :(")
+        prnt("It's a hit! :(")
     else:
         player[guess_row][guess_col] = " * "
         print("YAY! They missed!")
