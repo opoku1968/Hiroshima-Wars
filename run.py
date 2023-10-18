@@ -176,7 +176,7 @@ def game_play():
         print_board(player)
         input("\nPress Enter to continue...")
         i += 1
-        if check_winer(player) == 4:
+        if check_winner(player) == 4:
             i = 10
         elif check_winner(player_guesses) == 4:
             i = 10
@@ -189,7 +189,7 @@ def validate_data(value):
     Argument: player input value
     """
     try:
-        if int(value) > 5 or int(value) < 1:
+        if int(vale) > 5 or int(value) < 1:
             raise ValueError(
                 "Your shot is out of bounds! Choose a number between 1 and 5"
             )
