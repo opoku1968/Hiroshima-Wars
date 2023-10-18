@@ -92,7 +92,7 @@ def player_guess():
     battleship and show them the result of their turn.
     """
     print("Here is the computer's board:")
-    prin_board(player_guesses)
+    print_board(player_guesses)
     repeat = True
     while repeat:
         # check whether data is valid
