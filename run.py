@@ -22,7 +22,7 @@ def print_board(board):
    in a format without the original list structure 
    and with added spaces.
     """
-    for nd in board:
+    for ind in board:
         print(" ".join(ind))
 
 
@@ -32,7 +32,7 @@ def random_num(board):
     of the board. This adjustment is made because the indices
       in the board's list start at 0, while the len function begins counting at 1.
     """
-    return randint(0, len(board)-1)
+    return randint(0 len(board)-1)
 
 
 
