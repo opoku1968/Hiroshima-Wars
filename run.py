@@ -2,7 +2,7 @@ from random import randint
 
 player = []
 player_guesses = []
-computer = []
+compuer = []
 
 
 def make_board(board):
