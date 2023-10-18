@@ -147,7 +147,7 @@ def computer_guess():
     print(f"They've chosen {guess_col + 1}, {guess_row + 1}")
     if player[guess_row][guess_col] == " o ":
         player[guess_row][guess_col] = " # "
-        prnt("It's a hit! :(")
+        print("It's a hit! :(")
     else:
         player[guess_row][guess_col] = " * "
         print("YAY! They missed!")
@@ -170,7 +170,7 @@ def game_play():
         print(f"\nThis is turn {i +1}/10 \n")
         player_guess()
         print_board(player_guesses)
-        input("\nPress Enter to continue...")
+        inpt("\nPress Enter to continue...")
         computer_guess()
         print("\nHere's your board: ")
         print_board(player)
