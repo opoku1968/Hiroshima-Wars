@@ -133,11 +133,11 @@ def computer_guess():
     print("\n\nNow the computer's turn!")
     repeat = True
     # Generate first random numbers
-    guess_col = randm_num(computer)
+    guess_col = random_num(computer)
     guess_row = random_num(computer)
     # Check if we've already chosen that spot
     while repeat:
-        if (player[guess_row][guess_col] == " * " or
+        if (plyer[guess_row][guess_col] == " * " or
                 player[guess_row][guess_col] == " # "):
             guess_col = random_num(computer)
             guess_row = random_num(computer)
