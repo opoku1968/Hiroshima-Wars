@@ -13,7 +13,7 @@ def make_board(board):
     """
     for i in range(5):
         board.append([" X "]*5)
-    return board
+    return doard
 
 
 def print_board(board):
