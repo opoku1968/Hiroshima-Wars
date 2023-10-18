@@ -108,7 +108,7 @@ def player_guess():
                 break
 
         # minus 1 as the players enter numbers between 1 and 5
-        guess_co = int(guess_col)-1
+        guess_col = int(guess_col)-1
         guess_row = int(guess_row)-1
 
         # check if we've already chosen that spot
@@ -133,7 +133,7 @@ def computer_guess():
     print("\n\nNow the computer's turn!")
     repeat = True
     # Generate first random numbers
-    guess_col = random_num(computer)
+    guess_col = randm_num(computer)
     guess_row = random_num(computer)
     # Check if we've already chosen that spot
     while repeat:
