@@ -189,7 +189,7 @@ def validate_data(value):
     Argument: player input value
     """
     try:
-        if int(vale) > 5 or int(value) < 1:
+        if int(value) > 5 or int(value) < 1:
             raise ValueError(
                 "Your shot is out of bounds! Choose a number between 1 and 5"
             )
@@ -205,7 +205,7 @@ def check_winner(board):
     Sums the number of times " # " (hit battleships) appear in the board.
     Argument: a list, expected to be the player board
     """
-    total = 0
+    totl = 0
     for list in board:
         total += list.count(" # ")
     return total
