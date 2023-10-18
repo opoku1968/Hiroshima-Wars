@@ -170,13 +170,13 @@ def game_play():
         print(f"\nThis is turn {i +1}/10 \n")
         player_guess()
         print_board(player_guesses)
-        inpt("\nPress Enter to continue...")
+        input("\nPress Enter to continue...")
         computer_guess()
         print("\nHere's your board: ")
         print_board(player)
         input("\nPress Enter to continue...")
         i += 1
-        if check_winner(player) == 4:
+        if check_winer(player) == 4:
             i = 10
         elif check_winner(player_guesses) == 4:
             i = 10
