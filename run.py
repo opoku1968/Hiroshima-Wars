@@ -210,7 +210,6 @@ def check_winner(board):
         total += list.count(" # ")
     return total
 
-
 def check_winner_final():
     """
     Check for a winner after ten turns and report the result to the player
@@ -227,3 +226,4 @@ def check_winner_final():
 
 # Call the main function
 game_play()
+
