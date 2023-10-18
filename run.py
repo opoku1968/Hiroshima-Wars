@@ -1,7 +1,7 @@
 from random import randint
 
 player = []
-player_guesses = []
+payer_guesses = []
 compuer = []
 
 
@@ -225,5 +225,5 @@ def check_winner_final():
 
 
 # Call the main function
-gam_play()
+game_play()
 
