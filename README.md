@@ -15,7 +15,7 @@ The computer and user will take ten turns to find all 4 of the ships, should all
 # Features
 ![image of battleships app](views/Battleship.PNG)
 
-## Exist Features
+## Existing Features
 
 - The game is personalised to allow a username to be entered
 - The game keeps count of turns and displays this to the user
@@ -23,7 +23,7 @@ The computer and user will take ten turns to find all 4 of the ships, should all
 - The game accepts user input for co-ordinates they wish to fire at
 - The game is played against the computer
 
-## Future Features
+## Fture Features
 
 - Use the username throughout the game rather than just in the welcoming statement so that the user can be more personally celebrated or commiserated at the end of the game.
 - Allow the user to choose to play against a other (local) player or the computer
