@@ -23,7 +23,7 @@ The computer and user will take ten turns to find all 4 of the ships, should all
 - The game accepts user input for co-ordinates they wish to fire at
 - The game is played against the computer
 
-## Fture Features
+## Future Features
 
 - Use the username throughout the game rather than just in the welcoming statement so that the user can be more personally celebrated or commiserated at the end of the game.
 - Allow the user to choose to play against a other (local) player or the computer
@@ -31,7 +31,7 @@ The computer and user will take ten turns to find all 4 of the ships, should all
 - Allow the user to position ships themselves
 - Allow larger ship sizes than 1x1
 
-# Testing
+# Testinng
 
 ## Manual Testing
 
