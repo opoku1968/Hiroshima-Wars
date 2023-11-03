@@ -32,7 +32,7 @@ def random_num(board):
     of the board. This adjustment is made because the indices
       in the board's list start at 0, while the len function begins counting at 1.
     """
-    return randint(0 len(board)-1)
+    return randint(0, len(board)-1)
 
 
 
