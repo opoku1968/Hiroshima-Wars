@@ -47,14 +47,14 @@ The computer and user will take ten turns to find all 4 of the ships, should all
 - Checked that there is no negative impact if the user enters values rather than just pressing enter to continue the game.
 
 
-## Bugs/Updaates after Testing
+## Bugs/Updates after Testing
 
 - After user testing, starting at 0 was a little confusing so the code was updated to accept numbers between 1 and 5 instead.
 - After user feedback, I also implemented the input breaks where the user must press enter to continue so that they could see the result of each turn without needing to scroll up.
 - There were many commits where I was confused between rows and columns - these have been rectified. 
 - If (for some unknown reason) the code was edited for a smaller board containing less than 4 locations, the ship generating function would be stuck in a loop.
 
-## Validator Testing
+## Valiidator Testing
 
 - Fully passed the [PEP8 online validator](http://pep8online.com/) with the result "All right"
 
