@@ -58,7 +58,7 @@ The computer and user will take ten turns to find all 4 of the ships, should all
 
 - Fully passed the [PEP8 online validator](http://pep8online.com/) with the result "All right"
 
-# Deploymnt
+# Deployment
 This project was deployed using Code Institute's mock terminal for Heroku.
 
 The steps for deployment are as follows:
@@ -68,7 +68,7 @@ The steps for deployment are as follows:
 - Link the opoku1968 to the repository
 - Click on Deploy
 
-# Credits
+# Credts
 
 - This project uses the [Code Institute student template](https://github.com/Code-Institute-Org/python-essentials-template) for deploying the third portfolio project, the Python command-line project.
 - The idea of using battleships is a suggested one by the Code Institute with "Ultimate Battleships" as inspiration.
