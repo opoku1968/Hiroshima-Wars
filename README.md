@@ -12,10 +12,10 @@ The game will then request that the user enters a column and row number (essenti
 
 The computer and user will take ten turns to find all 4 of the ships, should all 10 turns be taken without finding 4 ships, the game will state who has had the most hits and display them as the winner. 
 
-# Featur
+# Features
 ![image of battleships app](views/Battleship.PNG)
 
-## Existing Features
+## Exist Features
 
 - The game is personalised to allow a username to be entered
 - The game keeps count of turns and displays this to the user
