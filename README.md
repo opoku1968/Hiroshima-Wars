@@ -54,11 +54,11 @@ The computer and user will take ten turns to find all 4 of the ships, should all
 - There were many commits where I was confused between rows and columns - these have been rectified. 
 - If (for some unknown reason) the code was edited for a smaller board containing less than 4 locations, the ship generating function would be stuck in a loop.
 
-## Valiidator Testing
+## Validator Testing
 
 - Fully passed the [PEP8 online validator](http://pep8online.com/) with the result "All right"
 
-# Deployment
+# Deploymnt
 This project was deployed using Code Institute's mock terminal for Heroku.
 
 The steps for deployment are as follows:
