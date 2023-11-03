@@ -31,7 +31,7 @@ The computer and user will take ten turns to find all 4 of the ships, should all
 - Allow the user to position ships themselves
 - Allow larger ship sizes than 1x1
 
-# Testinng
+# Testing
 
 ## Manual Testing
 
@@ -47,7 +47,7 @@ The computer and user will take ten turns to find all 4 of the ships, should all
 - Checked that there is no negative impact if the user enters values rather than just pressing enter to continue the game.
 
 
-## Bugs/Updates after Testing
+## Bugs/Updaates after Testing
 
 - After user testing, starting at 0 was a little confusing so the code was updated to accept numbers between 1 and 5 instead.
 - After user feedback, I also implemented the input breaks where the user must press enter to continue so that they could see the result of each turn without needing to scroll up.
