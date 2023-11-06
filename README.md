@@ -12,11 +12,11 @@
 - [Deployment](#deployment)
 - [Credits](#credits)
 
-#  Battleships Game
+# A  Battleships Game
 Portfolio Project 3 Python Essentials - Code Institute
 
 # About
-This game is a Python implementation of [Battleships](http://battleship-game.net/), a well-known game originally played on paper after WWI. This version is designed for one user to compete against the computer with randomly generated battleship locations, each consisting of a single square.
+This game  a Python implementation of [Battleships](http://battleship-game.net/), a well-known game originally played on paper after WWI. This version is designed for one user to compete against the computer with randomly generated battleship locations, each consisting of a single square.
 
 # How To Play
 
