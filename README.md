@@ -1,6 +1,6 @@
 # Table of Contents
 
-- [Abou](#about)
+- [About](#about)
 - [How To Play](#how-to-play)
 - [Features](#features)
   - [Existing Features](#existing-features)
@@ -12,7 +12,7 @@
 - [Deployment](#deployment)
 - [Credits](#credits)
 
-# A Battleships Game
+#  Battleships Game
 Portfolio Project 3 Python Essentials - Code Institute
 
 # About
