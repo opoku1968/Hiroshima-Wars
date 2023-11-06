@@ -16,18 +16,18 @@
 Portfolio Project 3 Python Essentials - Code Institute
 
 # About
-This game  a Python implementation of [Battleships](http://battleship-game.net/), a well-known game originally played on paper after WWI. This version is designed for one user to compete against the computer with randomly generated battleship locations, each consisting of a single square.
+This game is  a Python implementation of [Battleships](http://battleship-game.net/), a well-known game originally played on paper after WWI. This version is designed for one user to compete against the computer with randomly generated battleship locations, each consisting of a single square.
 
 # How To Play
 
-The game will first ask the user to enter a username before randomly generating 4 ship locations on both your board and the computer's board, signified with the letter "o". 
+The game will first ask  the user to enter a username before randomly generating 4 ship locations on both your board and the computer's board, signified with the letter "o". 
 
 The game will then request that the user enters a column and row number (essentially, co-ordinates) of the location they suspect a battleship is laid. If that location is on a battleship, it is a hit and marked as "#". If the location is not on a battleship, it is a miss and marked as "*". 
 
 The computer and user will take ten turns to find all 4 of the ships. If all 10 turns are taken without finding 4 ships, the game will state who has had the most hits and display them as the winner. 
 
 # Features
-![image of battleships app](battleships.PNG)
+![image  battleships app](battleships.PNG)
 
 ## Existing Features
 
