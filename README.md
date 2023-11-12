@@ -1,5 +1,5 @@
 # Battleship Game
-![image of  battleships app](battleships.PNG)
+![image of battleships app](battleships.png)
 The Battleship game is a classic two-player strategy game where each player hides a fleet of ships on a grid and attempts to sink the opponent's ships by making guesses. In this Python implementation, the player competes against the computer in finding and sinking each other's battleships.
 The deployed project live link is [HERE](#) - 
 ***Use Ctrl (Cmd) and click to open in a new window.*** 
@@ -59,44 +59,44 @@ The game owner's goals for the Battleship game encompass fostering user engageme
 ## Development
 The code for the Battleship game demonstrates effective development practices by employing modular design, clear function definitions, and logical structuring. The use of functions like 'make_board', 'print_board', and others enhances code readability and promotes reusability, allowing for easy modification and extension. 
 
-[image of Username Input](Username.png)
+![image of Username Input](Username.png)
 
 The implementation of user input validation in the 'validate_data' function showcases a commitment to robust error handling, ensuring the program gracefully handles unexpected inputs. Additionally, the game design reflects an understanding of the classic Battleship mechanics, providing users with a familiar yet engaging experience. The use of comments throughout the code further aids in comprehensibility, guiding developers and collaborators through the logic and functionality. This code development approach facilitates maintainability, ease of debugging, and potential future enhancements, contributing to the overall effectiveness of the Battleship game implementation.
 
-[image of validated username Input](validated-username.png)
+![image of validated username Input](validatedusername.png)
 
 ### Game Initialization
 The game starts by welcoming the player, prompting them to enter a username.
 
-[image of Username Input](Username.png)
+![image of Username Input](Username.png)
 
 ### Game Boards
 Three separate game boards are created for the user, computer, and user's guesses.
 The user and computer boards are initialized with battleships placed randomly.
 
-[image of Game Boards](gameboard.png)
+![image of Game Boards](gameboard.png)
 
 ### User Input
 Users enter their guesses for the row and column coordinates to locate and hit the computer's battleships.
 
-[image of User Input](guessrowncol.png)
+![image of User Input](guessrowncol.png)
 
 ### Hit and Miss Feedback  
 Players receive immediate feedback on whether their guess was a hit or a miss
 
-[image of Hit and Miss Feedback](feedback.png)
+![image of Hit and Miss Feedback](feedback.png)
 
 ### Outcome Declaration
 
 The 'check_winner_final' function declares the winner and displays the game outcome.
 
-[image of Hit and Miss Feedback](outcome.png)
+![image of Hit and Miss Feedback](outcome.png)
 
 ### Error Handling
 
 The code incorporates error handling mechanisms, such as validating user input, to ensure a smooth and error-free gaming experience.
 
-[image of Hit and Miss Feedback](error.png)
+![image of Hit and Miss Feedback](error.png)
 
 ## Technologies Used
 
